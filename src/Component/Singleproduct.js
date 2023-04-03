@@ -1,13 +1,10 @@
 import React, { useState } from 'react'
 import { GiSelfLove } from 'react-icons/gi'
 import { FaBeer } from 'react-icons/fa';
-import Header from './Header';
-import Karna from '../Karna';
 
-import Filter from './Filter';
 import { useDispatch } from 'react-redux';
 
-const Singleproduct = ({ item, cart, setCart, favourite, setFavourite, props }) => {
+const Singleproduct = ({ item, cart, setCart, favourite, setFavourite }) => {
 
   // const [count, setcount] = useState(0)
   const dispatch = useDispatch()
