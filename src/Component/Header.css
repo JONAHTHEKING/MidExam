@@ -1,0 +1,44 @@
+.right-side{
+    list-style-type: none;
+    display: inline-block;
+    padding: 14px;
+}
+
+.left-side {
+list-style-type: none;
+display: inline-block;
+
+}
+.nav-container {
+background-color: rgb(191, 214, 207);
+display: flex;
+justify-content: space-between;
+box-shadow: 0 0.188em 1.550em rgb(156, 156, 156);
+}
+
+.right-side li, .left-side li{
+display: inline-block;
+}
+.left-side li{
+padding: 14px;
+}
+
+.multicolortext {
+    background-image: linear-gradient(to left, violet, indigo, green, blue, yellow, orange, red);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 25px;
+  }
+  li{
+    text-decoration: none;
+    letter-spacing: 0.2em;
+    transition: 0,5s;
+    
+  }
+  li:hover
+  {
+   
+    letter-spacing: 0.25em;
+  }
