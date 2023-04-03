@@ -17,16 +17,21 @@ const Cart = ({ cart, setCart, favourite,setFavourite}) => {
       <center>
         <h3>summery</h3>
         <span>Total : ₹ {total}</span>
+        
       </center>
       <div style={{ width: "20rem", padding: "5px", position: "absolute" }} >
         {
           cart.map((item) => (
 
-            <Singleproduct item={item} key={item.id} cart={cart} setCart={setCart} favourite={favourite} setFavourite={setFavourite} />
+            <Singleproduct item={item} key={item.id} cart={cart} setCart={setCart} />
+        
+           
 
 
           ))
+
         }
+      
 
       </div>
 

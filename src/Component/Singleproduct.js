@@ -55,7 +55,7 @@ const Singleproduct = ({ item, cart, setCart, favourite, setFavourite, props }) 
 
   return (
     <div>
-      <div className='card' style={{ height: "33rem", padding: "10px" }}>
+      <div className='card' style={{ height: "35rem", padding: "10px" }}>
         <button class="btn btn-outline-info" style={{ width: "2.5rem" }} onClick={bye}> <GiSelfLove /> </button>
         <img src={item.image} className='card-img-bottom' style={{ width: "10rem", height: "15rem", padding: "5px" }} />
         <div className='card-body'>
